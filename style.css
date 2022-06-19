@@ -1,0 +1,77 @@
+*{
+margin: 0px;}
+h4{font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px #b33605;
+}
+h5{font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 0.5px #02096d;
+    text-transform: uppercase;
+
+}
+.main{
+    border: 02px solid black;
+    width: 450px;
+    height: 462px;
+    margin: auto;
+    background-color: black;
+}
+.input{background-color: gray;
+    margin: 2px;
+    width: 93%;
+    height: 40px;
+    margin-left: 11px;
+    border: 2px solid #aaa;
+    font-size: 35px;
+
+}
+.input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0px 0 20px 0 dodgerblue;
+}
+.c{
+width: 98%;
+margin: 2px;
+}
+.btn{
+
+    display: flex;
+    justify-content: space-around;
+   
+}
+.b{
+    
+    background-color: gray;
+ height: 60px;
+ width: 90px;
+    margin: 2px;
+}
+.b:hover{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    box-shadow: 0px 0 05px 0 gray;
+}
+.equal:hover{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    box-shadow: 0px 0 05px 0 gray;
+
+}
+.lastbtn{
+    width:50px ;
+}
+.equal{
+    background-color: gray;
+    width: 95%;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.s{
+    font-size: 40px;
+}
